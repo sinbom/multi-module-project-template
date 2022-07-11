@@ -1,0 +1,29 @@
+= Sample REST API Documentation
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 4
+:sectlinks:
+
+ifndef::snippets[]
+:snippets: ./build/generated-snippets
+endif::[]
+
+//[[sample]]
+//== SMS 인증으로 유저 비밀번호 변경
+//
+//=== Example request
+//include::{snippets}/sample/curl-request.adoc[]
+//
+//=== HTTP request
+//include::{snippets}/sample/http-request.adoc[]
+//
+//=== Request fields
+//include::{snippets}/sample/request-fields.adoc[]
+//
+//=== Request headers
+//include::{snippets}/sample/request-headers.adoc[]
+//
+//=== HTTP response
+//include::{snippets}/sample/http-response.adoc[]

@@ -1,0 +1,4 @@
+rootProject.name = 'multi-module-project-template'
+include 'core'
+include 'api-sample'
+include 'domain-sample'
